@@ -3,7 +3,7 @@
 
 .test-font {
 
-color: var(--dominantcolor) !important;;
+color: red
 
 }
 
@@ -12,4 +12,3 @@ color: var(--dominantcolor) !important;;
     color: var(--dominantcolor) !important;;
     
     }
-    
