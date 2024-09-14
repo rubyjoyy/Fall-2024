@@ -1,0 +1,21 @@
+/* colors */
+
+/*
+60% of #3e99c1
+30% of #3ec166
+10% of #3ec1a8
+*/
+
+:root {
+
+/* var(--dominantcolor) !important; */
+--dominantcolor: #3e99c1;
+
+/* var(--secondarycolor) !important; */
+--secondarycolor: #3ec166;
+
+/* var(--accentcolor) !important; */
+--accentcolor: #3ec1a8;
+
+}
+
