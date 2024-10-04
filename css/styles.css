@@ -1,16 +1,7 @@
 @import 'global.css';
 @import 'main.css';
 
-.test-font {
 
-color: red;
-
-}
-
-.test-font-2 {
-
-    color: var(--dominantcolor) !important;;
-    
+    .fa-row {
+        background-color: pink;
     }
-
-    
