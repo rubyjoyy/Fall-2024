@@ -20,3 +20,14 @@ color: #ffffff;
 transform: scale(1.1);
 
 }
+
+.first-paragraph-div {
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px;
+    height: auto;
+    
+}
