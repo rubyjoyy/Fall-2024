@@ -36,3 +36,49 @@ transform: scale(1.1);
     margin-right: auto;
 
 }
+
+
+
+/* Table */
+.content-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: cente;
+    
+  }
+  
+  .content-table th, .content-table td {
+    padding: 20px;
+  }
+  
+  .content-table thead tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: var(--dominantcolor) !important;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 3px solid var(--dominantcolor) !important;
+  
+  }
+  
+  .content-table tbody tr td:first-of-type {
+  background-color: #ffffff;
+  text-align: right;
+  border-right: 1px solid #dddddd;
+  
+  }
