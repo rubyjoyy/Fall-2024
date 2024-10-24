@@ -91,7 +91,12 @@ transform: scale(1.1);
     padding-bottom: 30px;
   }
 
-  .first-paragraph-img {
 
-    width: 100%;
+
+  @media screen and (max-width: 768px) {
+    .first-paragraph-img {
+
+      width: 100%;
+
+    }
   }
