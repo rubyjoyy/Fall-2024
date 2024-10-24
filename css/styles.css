@@ -90,3 +90,8 @@ transform: scale(1.1);
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  .first-paragraph-img {
+
+    width: 100%;
+  }
