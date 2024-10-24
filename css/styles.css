@@ -56,6 +56,7 @@ transform: scale(1.1);
   .content-table thead tr {
     border-bottom: 1px solid #dddddd;
     background-color: var(--dominantcolor) !important;
+    color: #ffffff;
   }
   
   .content-table tbody tr {
@@ -85,5 +86,5 @@ transform: scale(1.1);
   
   .schedule-section {
 
-    background-color: #f6f8fa ;
+    background-color: #f6f8fa;
   }
