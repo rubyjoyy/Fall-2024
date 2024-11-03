@@ -100,3 +100,8 @@ transform: scale(1.1);
 
     }
   }
+
+  .list-section {
+    padding-top: 30px;
+    padding-bottom: 30px; 
+  }
