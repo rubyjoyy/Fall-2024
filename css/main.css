@@ -39,3 +39,21 @@ padding-bottom: 35px;
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.top-logo {
+   height: auto;
+   font-weight: bolder; 
+   color: var(--dominantcolor) !important; 
+   font-size: 55px;
+   padding-top: 40px;
+   padding-bottom: 0px;
+   background-color: white;
+}
+
+.material-symbols-outlined, .material-symbols-outlined a {
+    font-size: 60px;
+    color: var(--dominantcolor) !important;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+}
