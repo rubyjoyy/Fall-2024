@@ -58,7 +58,7 @@ padding-bottom: 35px;
     text-decoration: none;
 }
 
-.blockquote {
+blockquote {
     font-family: georgia, serif;
     font-size: 18px;
     font-style: italic;
@@ -71,10 +71,24 @@ padding-bottom: 35px;
 blockquote::before {
     display: block;
     padding-left: 10px;
-    content: "";
+    content: "\201c";
     font-size: 80px;
     position: absolute;
     left: -20px;
     top: -20px;
     color: var(--accentcolor) !important;
+}
+
+blockquote cite {
+color: var(--accentcolor) !important;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+
+
+}
+
+blockquote cite::before {
+    content: "\2014 \2009";
+
 }
