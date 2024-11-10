@@ -68,3 +68,13 @@ padding-bottom: 35px;
     position: relative;
     color: var(--accentcolor) !important;
 }
+blockquote::before {
+    display: block;
+    padding-left: 10px;
+    content: "";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: var(--accentcolor) !important;
+}
