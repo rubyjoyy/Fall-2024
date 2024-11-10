@@ -100,5 +100,5 @@ blockquote cite::before {
     margin-top: 15px;
     border: 10px solid var(--accentcolor) !important;
     margin: auto;
-
+    clip-path: circle(50% at 50% 50%);
 }
