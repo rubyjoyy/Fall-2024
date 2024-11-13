@@ -21,7 +21,7 @@ console.clear();
 ///////////////checkbox///////////////
 var checkBoxVar = document.querySelector('#morning');  
 
-if (checkBoxVar) {
+if (checkBoxVar) 
   
   //just the button variable
   let submit = document.getElementById("submit");
