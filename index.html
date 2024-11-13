@@ -267,17 +267,27 @@
           <div class="row">
             <div class="col-12 col-xxs-12 col-xs-12-col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="first-name">Full Name</label>
-              <input type="text" name="FirstName" id="first-name" class="first-name form-control" required value="" placeholder="Type your name" />
+              <input type="text" name="FirstName" id="first-name" class="first-name form-control" required />
             </div>
 
             <div class="col-12 col-xxs-12 col-xs-12-col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-              <label for="first-name">Full Name</label>
-              <input type="text" name="FirstName" id="first-name" class="first-name form-control" required value="" placeholder="Type your name" />
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="email form-control" required value="" min="20" max="120" />
             </div>
 
             <div class="col-12 col-xxs-12 col-xs-12-col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-              <label for="first-name">Full Name</label>
-              <input type="text" name="FirstName" id="first-name" class="first-name form-control" required value="" placeholder="Type your name" />
+              <label for="tel">Phone</label>
+              <input type="tel" name="tel" id="tel" class="tel form-control" required value="" />
+            </div>
+
+            <div class="col-12 col-xxs-12 col-xs-12-col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <strong>Check one</strong><br />
+              <input type="radio" name="myradio" id="morning-radio" class="form-check-input" required /><label for="morning-radio">Female</label> <input type="radio" name="myradio" id="evening-radio" class="form-check-input" required /><label for="evening-radio">Male</label> <input type="radio" name="myradio" id="evening-radio" class="form-check-input" required /><label for="evening-radio">Other</label>
+            </div>
+
+            <div class="col-12 col-xxs-12 col-xs-12-col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <label form="comments">Add a comment</label><br />
+              <textarea id="comments" name="comments" class="form-control"></textarea>
             </div>
           </div>
         </form>
