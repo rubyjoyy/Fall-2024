@@ -262,7 +262,7 @@
       <!-- End list -->
 
       <!--Begin Contact Form-->
-      <div class="container">
+      <div class="container webform">
         <form data-netlify="true" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
           <div class="row">
             <div class="col-12 col-xxs-12 col-xs-12-col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -290,9 +290,13 @@
               <textarea id="comments" name="comments" class="form-control"></textarea>
             </div>
 
-            <div class="col-12">
-              <input type="checkbox" id="terms-and-conditions" name="terms" value="yes" required />
+            <div class="col-12 form-check form-switch">
+              <input type="checkbox" id="terms-and-conditions" name="terms" value="yes" class="form-check-input" required />
               <label>I accept the terms and conditions</label>
+            </div>
+
+            <div class="col-12">
+              <input type="submit" name="submit" class="btn btn-primary" />
             </div>
           </div>
         </form>
