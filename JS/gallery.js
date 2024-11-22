@@ -6,8 +6,8 @@ $( document ).ready(function() {
      
         thumbnailHeight:  "auto",
         thumbnailWidth:   "450",
-        thumbnailBoarderVertical: "0" ,
-        thumbnailBoarderHorizontal: "0",
+        thumbnailBorderVertical: "0" ,
+        thumbnailBorderHorizontal: "0",
         thumbnailLabel: { 
             position:"overImageOnBottom" ,
             display: false
